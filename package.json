@@ -1,0 +1,23 @@
+{
+  "name": "mithril-media-query",
+  "version": "0.1.0",
+  "description": "A mithril component which selectively renders using media queries.",
+  "main": "lib/index.js",
+  "repository": "https://github.com/soulofmischief/mithril-media-query",
+  "author": "soulofmischief <soulofmischief@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "coverage": "nyc --reporter=lcov ospec",
+    "report-coverage": "yarn coverage && codecov",
+    "test": "ospec"
+  },
+  "dependencies": {
+    "@soulofmischief/js-utils": "^0.4.4",
+    "libmq": "^0.1.4",
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "mithril-node-render": "^2.3.2",
+    "ospec": "^4.0.1"
+  }
+}
