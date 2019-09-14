@@ -17,6 +17,7 @@
     "mithril": "^2.0.4"
   },
   "devDependencies": {
+    "codecov": "^3.5.0",
     "mithril-node-render": "^2.3.2",
     "ospec": "^4.0.1"
   }
