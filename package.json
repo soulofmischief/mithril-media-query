@@ -6,6 +6,12 @@
   "repository": "https://github.com/soulofmischief/mithril-media-query",
   "author": "soulofmischief <soulofmischief@protonmail.com>",
   "license": "MIT",
+  "keywords": [
+    "mithril",
+    "media query",
+    "component",
+    "render"
+  ],
   "scripts": {
     "coverage": "nyc --reporter=lcov ospec",
     "report-coverage": "yarn coverage && codecov",
