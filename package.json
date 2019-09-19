@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@soulofmischief/js-utils": "^0.4.4",
-    "libmq": "^0.1.4",
+    "libmq": "^0.1.5",
     "mithril": "^2.0.4"
   },
   "devDependencies": {

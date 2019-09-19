@@ -134,10 +134,10 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-libmq@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/libmq/-/libmq-0.1.4.tgz#bfb02b335bb41d3b782fd1539c8e11f4358f0c85"
-  integrity sha512-Z2da2Ofk/uMlQzCNeX2eeE3iOkx4yb6qKZGfWYmWaHoRt0Be5R5H9q0DspMmEd3e0ENgLVZi+VjFiAykUQe7DQ==
+libmq@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/libmq/-/libmq-0.1.5.tgz#1ab59444dac07aa0aa6b2c7ecfa1adb33aba3312"
+  integrity sha512-32n8YbTfk/hv7C/WrFqNeIhhjefKrNaVcYcAP7Z1xcEpV9pGHQ/+3VuIfjSyOfCAfomf3G9AJ/Rk+lBLqQxOpg==
 
 lodash@^4.17.15:
   version "4.17.15"
