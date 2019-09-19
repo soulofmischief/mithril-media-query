@@ -15,7 +15,7 @@ const
   m = require( 'mithril' ),
   r = require( 'mithril-node-render' ),
   o = require( 'ospec' ),
-  MediaQuery = require( '../lib' ).default
+  MediaQuery = require( '../lib' ).MediaQuery
 
 const
   q = libmq.query,
