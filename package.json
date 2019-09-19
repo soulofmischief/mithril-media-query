@@ -1,6 +1,6 @@
 {
   "name": "mithril-media-query",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A mithril component which selectively renders using media queries.",
   "main": "lib/index.js",
   "repository": "https://github.com/soulofmischief/mithril-media-query",
