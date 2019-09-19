@@ -1,4 +1,5 @@
-// Libmq doesn't need a browser mock and handles compatibility itself.
+// Libmq doesn't need a browser mock and handles compatibility itself,
+// so load it first.
 const libmq = require( 'libmq' )
 
 // use a mock DOM so we can run mithril on the server
@@ -20,7 +21,6 @@ const
   q = libmq.query,
   w = libmq.screenWidths
 
-console.debug( 'VAL:', global.innerWidth, global.innerHeight, q.phoneOnly())
 
 o.spec( 'phone-only', function () {
   o( 'default', async function () {
