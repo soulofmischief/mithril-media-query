@@ -12,7 +12,7 @@ A mithril component for selectively rendering based on the current viewport dime
 ## Example
 
 ```jsx
-import MediaQuery from 'mithril-media-query'
+import { MediaQuery } from 'mithril-media-query'
 
 <MediaQuery type="phone-only">
   Howdy
