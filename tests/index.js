@@ -266,7 +266,7 @@ o.spec( 'portrait', function () {
 
 
 o( 'listener stub', async function () {
-  o( await r( m( MediaQuery, { listener: true }, 'hello' ))).equals( '' )
+  o( await r( m( MediaQuery, { redraw: true }, 'hello' ))).equals( '' )
 })
 
 o( 'no type', async function () {
