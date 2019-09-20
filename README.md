@@ -12,16 +12,18 @@ A mithril component for selectively rendering based on the current viewport dime
 ## Example
 
 ```jsx
-import MediaQuery from 'mithril-media-query'
+import { MediaQuery, query } from 'mithril-media-query'
 
 <MediaQuery type="phone-only">
   Howdy
 </MediaQuery>
+
+if ( query.phoneOnly()) console.log( 'This is a phone.' )
 ```
 
 ## Configuration
 
-`mithril-media-query` requires the `type` attribute, a string which controls the width threshold for displaying it's children.
+`mithril-media-query` requires the `type` attribute, a string which controls the width threshold for displaying its children.
 
 The following types are available:
 
@@ -35,8 +37,10 @@ The following types are available:
 * `'landscape'` - Greater than or equal to `window.innerHeight`
 * `'portrait'` - Less than `window.innerHeight`
 
-By default, `mithril-media-query` checks against `window.innerWidth`, but it can optionally be passed a `size` attribute. This should be a number which will be checked against the above values.
+By default, `mithril-media-query` checks against `window.innerWidth`, but it can be passed a numerical `size` attribute to be tested instead in order to programmatically control rendering.
+
+You can optionally automatically redraw during window resize by enabling the `redraw` attribute. Redraws are throttled to once every 150ms.
 
 ## Notes
 
-`mithril-media-query` is powered by [`libmq`](https://www.npmjs.com/package/libmq), a Javascript library for making media queries.
+`mithril-media-query` is powered by [`libmq`](https://www.npmjs.com/package/libmq), a Javascript library for making media queries. For convenience, `libmq` is exposed as `query` in `mithril-media-query`'s named exports.
