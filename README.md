@@ -39,7 +39,7 @@ The following types are available:
 
 By default, `mithril-media-query` checks against `window.innerWidth`, but it can be passed a numerical `size` attribute to be tested instead in order to programmatically control rendering.
 
-You can optionally automatically redraw during window resize by enabling the `listener` attribute. Redraws are throttled to once every 150ms.
+You can optionally automatically redraw during window resize by enabling the `redraw` attribute. Redraws are throttled to once every 150ms.
 
 ## Notes
 
