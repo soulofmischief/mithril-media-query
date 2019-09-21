@@ -12,12 +12,18 @@ A mithril component for selectively rendering based on the current viewport dime
 ## Example
 
 ```jsx
+import m from 'mithril'
 import { MediaQuery, query } from 'mithril-media-query'
 
+// JSX
 <MediaQuery type="phone-only">
   Howdy
 </MediaQuery>
 
+// HyperScript
+m( MediaQuery, { type: 'phone-only' }, 'Howdy' )
+
+// Hooks for custom component logic
 if ( query.phoneOnly()) console.log( 'This is a phone.' )
 ```
 
